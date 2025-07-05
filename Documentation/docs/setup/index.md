@@ -56,7 +56,3 @@ Si encuentras problemas durante la configuración:
 2. Revisa que los puertos no estén en uso por otros servicios
 3. Consulta los logs de cada servicio para errores específicos
 4. Asegúrate de que las variables de entorno estén configuradas correctamente
-
----
-
-**¿Listo para comenzar?** Empieza con la [configuración del frontend](frontend-setup.md) o ve directamente al [backend](backend-setup.md) según tus necesidades.

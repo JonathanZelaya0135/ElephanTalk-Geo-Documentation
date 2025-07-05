@@ -45,6 +45,7 @@ La licencia **NO** proporciona:
 ## Texto Completo de la Licencia
 
 Para consultar el texto completo de la Apache License 2.0, visite:
+
 - [Apache License 2.0 - Texto Oficial](https://www.apache.org/licenses/LICENSE-2.0)
 - [Apache License 2.0 - Versión en Español (No Oficial)](https://www.apache.org/licenses/LICENSE-2.0.html)
 

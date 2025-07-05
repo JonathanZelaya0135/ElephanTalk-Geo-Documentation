@@ -36,7 +36,3 @@ Las características de ElephanTalk están diseñadas para trabajar de manera in
 2. **Backend NestJS**: API principal para manejo de datos y lógica de negocio
 3. **Microservicio FastAPI**: Análisis de toxicidad especializado
 4. **PhotonAPI**: Servicios de geolocalización y mapas
-
-## Próximas Funcionalidades
-
-El sistema está diseñado para ser escalable y permitir la adición de nuevas características de manera sencilla, manteniendo la arquitectura modular y los patrones de diseño establecidos.
