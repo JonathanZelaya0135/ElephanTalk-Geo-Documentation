@@ -1,0 +1,75 @@
+site_name: ElephanTalk Documentation
+site_description: Technical documentation for ElephanTalk social platform
+site_author: ElephanTalk Team
+site_url: https://your-docs-site.com
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Overview: getting-started/index.md
+    - System Requirements: getting-started/system-requirements.md
+    - User Manuals: getting-started/user-manuals.md
+  - Architecture:
+    - Overview: architecture/index.md
+    - Design Patterns: architecture/design-patterns.md
+    - Data Model: architecture/data-model.md
+    - Software Stack: architecture/software-stack.md
+  - Setup & Configuration:
+    - Overview: setup/index.md
+    - Frontend Setup: setup/frontend-setup.md
+    - Backend Setup: setup/backend-setup.md
+    - PhotonAPI Setup: setup/photon-api.md
+  - Features:
+    - Overview: features/index.md
+    - Geolocation: features/geolocation.md
+    - Content Moderation: features/moderation.md
+    - Error Handling: features/error-handling.md
+  - Development:
+    - Overview: development/index.md
+    - Project Management: development/project-board.md
+    - License Compatibility: development/license-compatibility.md
+  - Repositories: repositories.md
+  - License: license.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+
+plugins:
+  - search
+  - git-revision-date-localized
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kevocodes
