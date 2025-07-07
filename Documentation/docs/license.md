@@ -67,14 +67,17 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-## Archivos de Licencia en el Proyecto
-
-Para cumplir con los requisitos de la Apache License 2.0, el proyecto ElephanTalk incluye:
-
-- **LICENSE**: Archivo que contiene el texto completo de la Apache License 2.0
-- **NOTICE**: Archivo que contiene la información de copyright y atribución
-- **Encabezados de licencia**: Comentarios en los archivos de código fuente que indican la licencia aplicable
 
 ## Contribuciones
 
 Al contribuir al proyecto ElephanTalk, los colaboradores aceptan que sus contribuciones serán licenciadas bajo la misma Apache License 2.0. Esto garantiza que el proyecto mantenga una licencia consistente y que todas las contribuciones estén disponibles bajo los mismos términos.
+
+
+```
+Nota: Este proyecto incluye:
+
+- Leaflet (BSD 2-Clause License) https://leafletjs.com
+- Photon API (BSD 2-Clause License) https://photon.komoot.io/
+
+Estos componentes son compatibles con Apache 2.0.
+```
